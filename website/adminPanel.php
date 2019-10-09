@@ -42,9 +42,9 @@ if(isset($_GET['delete'])) {
             header("Location: index.php");
         }
         ?>
-        <a href="?logout" class="logout">Wyloguj</a>
+        <a href="?logout" class="logout">Logout</a>
         <div class="logo">
-            <p>Imperium-RP Panel Administratora</p>
+            <p>Test server administrators panel</p>
             <img src="./img/logo.png" alt="AvenueRP">
         </div>
         <div class="tableContainer">
