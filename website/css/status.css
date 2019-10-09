@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusContainer {
+    padding: 10px;
+    color: white;
+    width: 60%;
+    max-height: 77vh;
+    background: rgba(20, 20, 20, .85);
+    overflow-y: auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+body {
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 60%;
+    height: 180px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logout {
+    padding: 10px;
+    border-radius: 5px;
+    background: #dea429;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.logout:hover {
+    background: #c98c08;
+}
+
+
+.error {
+    width: 30%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid red;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    animation: error 4s ease-in-out both;
+    z-index: 999;
+}
+
+@keyframes error {
+    0% {
+        opacity: 0;
+        transform: translate(0);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translate(1);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('../img/bg.jpg');
+}
+
+
+.logout {
+    padding: 10px;
+    border-radius: 5px;
+    background: #dea429;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.logout:hover {
+    background: #c98c08;
+}
+
+.error {
+    width: 30%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid red;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    animation: error 4s ease-in-out both;
+}
+
+@keyframes error {
+    0% {
+        opacity: 0;
+        transform: translate(0);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translate(1);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableContainer {
+    padding: 10px;
+    color: white;
+    width: 60%;
+    max-height: 77vh;
+    background: rgba(20, 20, 20, .85);
+    overflow-y: auto;
+}
+
+.tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableContainer thead td {
+    padding: 10px;
+    border-bottom: 3px solid #dea429;
+    font-weight: bold;
+}
+
+.tableContainer tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dea429;
+}
+
+.checkBtn {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    background: #01c413;
+    border-radius: 3px;
+}
+
+.checkBtn:hover {
+    background: #089e17;
+}
+
+.deleteBtn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    background: red;
+    border-radius: 3px;
+}
+
+.deleteBtn:hover {
+    background: rgb(156, 2, 2);
+}
+
+.logo {
+    width: 60%;
+    height: 180px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.logo p {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    bottom: 10px;
+}

@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 5%;
+    height: 130px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.btnGroup {
+    display: flex;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btnGroup a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background: #dea429;
+    transition: background-color .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.btnGroup a:hover {
+    color: white;
+    background-color: #aa7709;
+}
+
+.container {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    font-size: 1.1em;
+    text-align: justify;
+    color: #dea429;
+    width: 75%;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, .45);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 5px black;
+}
+
+.login {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    background: #dea429;
+    border: 3px solid #dea429;
+    border-radius: 5px;
+    width: 75%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: color .3s ease-in-out;
+}
+
+.login:hover {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discord {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #dea429;
+    background: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 75%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: color .3s ease-in-out;
+}
+
+.discord:hover {
+    color: white;
+    background-color: rgb(29, 29, 29);
+    border-color: rgb(29, 29, 29);
+}
+
+.yellow {
+    color: #dea429;
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
