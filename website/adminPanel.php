@@ -45,7 +45,7 @@ if(isset($_GET['delete'])) {
         <a href="?logout" class="logout">Logout</a>
         <div class="logo">
             <p>Test server administrators panel</p>
-            <img src="./img/logo.png" alt="AvenueRP">
+            <img src="./img/logo.png" alt="TestRP">
         </div>
         <div class="tableContainer">
             <table>
