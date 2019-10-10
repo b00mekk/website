@@ -1,10 +1,10 @@
 <?php 
 $config = [
     'auth' => [
-        'auth_client_id' => '631872011177689119',
-        'auth_client_secret' => '_EkNAbKGPFjHhbj22UeyONmiGOSnUDV5',
-        'auth_redirect_index' => 'https://frostedflakes.pl/index',
-        'auth_redirect_admin' => 'https://frostedflakes.pl/admin'
+        'auth_client_id' => 'your_discord_bot_client_id',
+        'auth_client_secret' => 'your_discord_bot_secret',
+        'auth_redirect_index' => 'https://youtsite.com/index',
+        'auth_redirect_admin' => 'https://yoursite.com/admin'
     ],
     'db' => [
         'db_host' => 'host',
