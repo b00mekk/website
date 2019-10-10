@@ -39,14 +39,14 @@ header {
     text-decoration: none;
     padding: 10px 15px;
     color: white;
-    background: #dea429;
+    background: #ff6347;
     transition: background-color .3s ease-in-out;
     border-radius: 5px;
 }
 
 .btnGroup a:hover {
     color: white;
-    background-color: #aa7709;
+    background-color: #c44c37;
 }
 
 .container {
@@ -64,7 +64,7 @@ header {
 .info {
     font-size: 1.1em;
     text-align: justify;
-    color: #dea429;
+    color: #ff6347;
     width: 75%;
     margin-top: 30px;
     background: rgba(0, 0, 0, .45);
@@ -84,8 +84,8 @@ header {
     text-decoration: none;
     font-size: 1.3em;
     color: black;
-    background: #dea429;
-    border: 3px solid #dea429;
+    background: #ff6347;
+    border: 3px solid #ff6347;
     border-radius: 5px;
     width: 75%;
     padding: 5px;
@@ -107,7 +107,7 @@ header {
 .discord {
     text-decoration: none;
     font-size: 1.3em;
-    color: #dea429;
+    color: #ff6347;
     background: black;
     border: 3px solid black;
     border-radius: 5px;
