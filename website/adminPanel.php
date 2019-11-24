@@ -44,8 +44,8 @@ if(isset($_GET['delete'])) {
         ?>
         <a href="?logout" class="logout">Wyloguj</a>
         <div class="logo">
-            <p>Imperium-RP Panel Administratora</p>
-            <img src="./img/logo.png" alt="AvenueRP">
+            <p>TwojSerwer Panel Administratora</p>
+            <img src="./img/logo.png" alt="Twojserwer">
         </div>
         <div class="tableContainer">
             <table>
