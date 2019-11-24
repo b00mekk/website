@@ -42,7 +42,7 @@ include('db.php');
         ?>
         <a href="?logout" class="logout">Logout</a>
         <div class="logo">
-            <img src="./img/logo.png" alt="RichRP">
+            <img src="./img/logo.png" alt="YourServer">
         </div>
         <div class="statusContainer">
             <p>Status of your application: <?php echo $status?></p>
