@@ -12,4 +12,4 @@ Its simple website, with application throught discord, with database.
   1 . **Subdomains** - 1 for application submission, 1 for administrator panel
   2 . **Database** -  if you created one, there's a file .sql. You know what to do.
 
-**Sorry for not posting a photo, im really busy at the moment at the moment**
+**Sorry for not posting a photo, im really busy atm**
