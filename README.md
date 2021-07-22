@@ -11,6 +11,7 @@ Its simple website, with application throught discord, with database.
   * On your website, create:
   * 
   1 . **Subdomains** - 1 for application submission, 1 for administrator panel
+  
   2 . **Database** -  if you created one, there's a file .sql. You know what to do.
 
 
